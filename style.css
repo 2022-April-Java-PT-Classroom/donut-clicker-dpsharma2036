@@ -1,0 +1,242 @@
+*{
+    font-family: sans-serif;
+}
+
+html{
+    font-size: 16px;
+   margin-top: 3em;
+   background-color: rgb(126, 134, 132);
+   line-height: 1.618rem;
+   color: rgb(17, 17, 18);
+  font: 18px/1.618 sans-serif;
+  font-family:'Lato', sans-serif;
+
+  
+  }
+
+ main{
+    max-width: 850px;
+    margin:0 auto;
+  }
+ 
+  
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+
+.auto-clicker{
+    margin-left: 150px;
+    
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    background-color:rgb(53, 49, 49);
+    margin: 2rem auto;
+    max-width: 60rem;
+    width: 90%;
+    color: silver;
+    -webkit-box-shadow: 3px -8px 25px 8px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px -8px 25px 8px rgba(0,0,0,0.5);
+    box-shadow: 3px -8px 25px 8px rgba(0,0,0,0.5);
+}
+
+.container, section{
+    display: grid;
+    grid-row: auto;
+    justify-content: center;
+}
+
+nav{
+    
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(179, 179, 216);
+    position: relative;
+    width: 100%;
+}
+
+.content-box{
+    font-style: normal;
+    background-color: rgb(210, 221, 198);
+    display: none;
+    position: absolute;
+    padding: 0 10px 0 20px;
+    top: 90%;
+    width: 100%;
+    overflow: hidden;
+    font-size: large;
+    
+}
+.fred-company{
+    background-color:rgb(166, 154, 166);
+    padding: 15px;
+    width: 33.33%;
+    border: 2px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    font-size: 22px;
+    cursor: pointer;
+    color:rgb(40, 40, 238);
+
+
+}
+
+.fred-company:hover{
+    background: rgb(63, 212, 130);
+    
+  }
+
+
+.inspiration-content{
+    font-style: normal;
+    background-color:rgb(210, 221, 198) ;
+    display: none;
+    position: absolute;
+    padding: 0 10px 0 20px;
+    top: 90%;
+    width: 100%;
+    overflow: hidden;
+    font-size: 22px;
+    border: 2px;
+
+}
+
+.inspiration{
+    background-color:rgb(166, 154, 166) ;
+    padding: 15px;
+    width: 33.33%;
+    border: 2px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    font-size: large;
+    cursor: pointer;
+    color: rgb(44, 34, 227);
+  }
+
+.inspiration:hover{
+    background: rgb(63, 212, 130);
+  }
+  
+.collapsible-contact{
+    font-style: normal;
+    background-color:rgb(210, 221, 198) ;
+    display: none;
+    position: absolute;
+    padding: 0 10px 0 20px;
+    top: 90%;
+    width: 100%;
+    overflow: hidden;
+    font-size: large;
+
+}
+.contact{
+    background-color:rgb(166, 154, 166) ;
+    padding: 15px;
+    width: 33.33%;
+    border: 2px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    font-size: 22px;
+    font-style: normal;
+    cursor: pointer;
+    color: rgb(35, 32, 185);
+
+}
+
+.contact:hover{
+    background: rgb(63, 212, 130);
+  }
+
+  .donut-clicker img:hover{
+    transform: scale(1.10);
+
+
+  }
+
+  .clicker-button img:active{
+    transform: scale(0.99);
+}
+
+
+.clicker-button:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+
+}
+
+.donut-clicker img:active{
+    transform: scale(0.99);
+    cursor: pointer;
+
+}
+
+.multiplier-button img:hover{
+    transform: scale(1.10);
+    
+}
+
+
+.reset-button{
+
+    display: flex;
+   width: 20%;
+    height: auto;
+    justify-content: center;
+    margin:auto;
+    margin-top: 200px;
+    align-items: center;
+    margin-left: 60%;
+
+}
+.reset-button img:hover{
+    transform: scale(0.99);
+
+}
+
+
+.refresh{
+    background-color: rgb(162, 180, 180);
+    color: rgb(11, 10, 10);
+
+}
+.refresh:hover{
+    background-color: aquamarine;
+}
+
+
+footer{
+    background: rgb(168, 166, 166);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+    height: 30px;
+    padding-bottom: 5px;
+    position: relative;
+    margin-top:100px;
+
+  }
+  footer:hover{
+    background: rgb(63, 212, 130);
+    text-align: center;
+  }
+  
+
+  
+
+
+
+  
+  

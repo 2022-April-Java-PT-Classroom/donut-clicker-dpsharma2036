@@ -4,10 +4,101 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+   
     <title>Donut Clicker</title>
   </head>
-  <body>
-    <div class="container"></div>
-    <script src="./index.js"></script>
+  
+   <header>
+    <nav class="navbar">
+      
+            <button type="button" class="fred-company">FredBaking Company</button>
+         <div class="content-box">
+         <p>
+            Fred Baking Company has been serving rural communities in the country for last three decades.
+            Rural,and an Organic taste is our motto. All the baking tastes like a baking from grandma ovens.
+            It also spends 10 percent of it's profit to charity. But now Fred, the owner is too busy.
+             He needs your help to make some donuts to keep the rual taste alive.
+          </p>
+          <button class="refresh">Refresh</button>
+         </div>
+          
+        <button type="button" class="inspiration">Inspiration</button>
+        <div class="inspiration-content">
+
+          <p>There are different online games that they engage your mind and give you fun.
+            The Donut clicker game does fullfil that expectation.Please come and do play this game.
+            You are Welcome to explore cookie clicker here at this link.
+            <a href="https://orteil.dashnet.org/cookieclicker/">Cookie Clicker</a>
+          </p>
+         
+        </div>
+      
+        <button type="button" class="contact">Contact</button>
+        <div class="collapsible-contact">
+        
+          <p>
+            <a href="https://github.com/dpsharma2036/dpsharma2036.github.io">GitHub</a><br>
+            <a href="https://www.linkedin.com/in/dhana-p-acharya-739076204/">LinkedIn</a>
+          </p>
+        </div>
+      </nav>
+
+       <h1>Fred Baking Company</h1>
+    </header>
+      
+      <body>
+      <div class="container">
+        <section class="donut-clicker">
+  
+          <h3>Donuts:</h3>
+          <p class="amount-of-donuts">0</p>
+          <p>Donuts per Click</p>
+          <p class="multiplier-amount">1</p>
+          <br>
+          <button class="donut-button">
+            <img src="./image/Donut.jpeg" />
+          </button>
+        </section>
+
+
+        <section class="auto-clicker">
+          <h3>Auto Clicker</h3>
+          <p class="amount-of-clickers">0</p>
+          <p>Cost:</p><br>
+          <p class="clicker-cost">100</p>
+          <button class="clicker-button">
+            <img src="./image/AutoClick.jpg"/>
+          </button>
+        </section><br>
+
+        <section class="donut-multiplier">
+          <h3>Donut Multiplier</h3>
+          <p class="amount-of-multipliers">0</p>
+          <p>Cost:</p>
+          <p class="multiplier-cost">20</p>
+          <button class="multiplier-button">
+            <img src="./image/multiplier.jpg" />
+          </button>
+        </section>
+        <br> <br><br><br>
+     
+        <div>
+        <button class="reset-button">
+          <img src="./image/reset.png" alt="" width="100px", height="100px">
+        </button>
+      </div>
+    
+   </div>
+  
+    <footer>
+        &copy; 2022 Donut Clicker
+    </footer>
+  
+  
+
+
+    <script src="./DonutMaker.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
