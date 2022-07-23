@@ -30,7 +30,7 @@ clickerbutton.addEventListener("click", () =>{
   donutMaker.buyAutoClicker();
   donutMaker.updateAutoClicker();
   donutMaker.updateDonutCount();
-  //setInterval();
+ 
 });
 
 multiplierButton.addEventListener("click", ()=>{
@@ -73,20 +73,6 @@ contactButton.onclick=function(){
   collapsiblecontact.style.display = "block";
 };
 
-
-// window.onclick = function(event){
-//   if(event.target == fredcompanyButton){
-//     contentbox.style.display = "none";
-//   }
-
-//   if(event.target == inspirationButton){
-//     inspirationcontent.style.display = "none";
-//   }
-
-//   if(event.target == contactButton){
-//     collapsiblecontact.style.display = "none";
-//   }
-// };
 
 function autoClick(){
   for(let i = 0; i <donut.autoClickers; i ++){

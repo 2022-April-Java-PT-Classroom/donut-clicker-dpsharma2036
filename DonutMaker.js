@@ -11,9 +11,6 @@ class DonutMaker{
         
     }
 
-    // donutClick(){
-    //   this.count += this.multiplier;
-    // }
 
     getDonutCount(){
         return this.donutcount;
@@ -44,28 +41,13 @@ class DonutMaker{
     this.autoClickers += 1;
   }
 
-  // showAutoClickerButton(){
-  //   clickerButton.classList.add("clicker-button-on");
-  // }
-
-  // hideAutoClickerButton(){
-  //   clickerButton.classList.remove("clicker-button-on");
-  // }
+  
 
   buyMultiplier(){          
     this.count = Math.round(this.count - this.multiplierCost);
     this.multiplier = this.multiplier * .1;
     this.multiplierAmount += 1;
 }
-
-// showMultiplierButton(){
-//   multiplierButton.classList.add("multiplier-button-on");
-// }
-
-// hideMultiplierButton(){
-//   multiplierButton.classList.remove("multiplier-button-on");
-// }
-
   
     updateAutoClicker(){
         const numberOfClicker = document.querySelector(".amount-of-clickers");
@@ -75,8 +57,7 @@ class DonutMaker{
         clickerCost.innerText = Math.round(this.autoClickerCost);
       }
 
-           
-
+          
       updateDonutMultiplier(){
         const numberOfMultipliers = document.querySelector(".amount-of-multipliers");
         const multiplyCost = document.querySelector(".multiplier-cost");
@@ -92,20 +73,6 @@ class DonutMaker{
         const donutCount = document.querySelector(".amount-of-donuts");
         donutCount.innerText = Math.round(this.count);
         
-
-        
-        // if(this.count >= this.autoClickersCost){
-        //   this.showAutoClickerButton();
-        // }
-        // if(this.count < this.autoClickersCost){
-        //   this.hideAutoClickerButton();
-        // }
-        // if(this.count >= this.multiplierCost){
-        //   this.showMultiplierButton();
-        // }
-        // if(this.count < this.multiplierCost){
-        //   this.hideMultiplierButton();
-        // }
 
       }
     }
